@@ -1,0 +1,63 @@
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav a:focus,
+nav a:hover {
+  outline: 0;
+  background-color: rgb(255, 255, 255);
+  color: rgb(130, 58, 217);
+}
+
+nav a[aria-current="page"] {
+  border: 1px dashed rgb(255, 255, 255);
+}
+
+nav {
+  margin: 0 auto;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  width: 250px;
+}
+
+nav > ul > li > a {
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  display: block;
+  background-color: rgb(130, 58, 217);
+  margin: -1px;
+}
+
+li.has-submenu {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 8px;
+}
+
+li.has-submenu ul {
+  list-style: none;
+  padding: 0.5rem 0 0 0;
+}
+
+li.has-submenu ul a {
+  text-align: center;
+  display: block;
+  padding: 1rem 2rem;
+}
+
+li.has-submenu li:last-child a {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}

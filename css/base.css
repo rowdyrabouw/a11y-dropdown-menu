@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "latoregular";
+  src: url("/font/lato-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-size: 150%;
+  font-family: latoregular, Arial, Helvetica, sans-serif;
+  background-color: rgb(130, 58, 217);
+}
+
+nav {
+  width: 900px;
+  padding: 2rem 0;
+}
+
+.hidden {
+  display: none;
+}
